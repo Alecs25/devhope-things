@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>HTML Lesson</title>
+  <style>
+    label {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <form method="get">
+    <label for="email">e-Mail</label>
+    <input type="email" id="email" required>
+    <label for="password">Password</label>
+    <input type="password" id="password" required>
+    <label for="name_lastname">Name and Lastname</label>
+    <input type="text" id="name_lastname" required>
+    <label for="birthdate">Date of Birth</label>
+    <input type="date" id="birthdate" required>
+    <label for="tel_number">Telephone number</label>
+    <input type="number" id="tel_number" required>
+    <label for="plan">Choose a plan:</label>
+    <select name="plan" id="plan" required>
+      <option value="free_plan">Free Plan</option>
+      <option value="25_plan">25€ Plan</option>
+      <option value="50_plan">50€ Plan</option>
+      <option value="100_plan">100€ Plan</option>
+    </select>
+    <label for="pro_plan">Pro Plan</label>
+    <input type="checkbox" id="pro_plan" value="Pro Plan">
+    <label for="cc_number">Credit Card Number</label>
+    <input type="number" id="cc_number" required>
+    <label for="cvc_number">CVC</label>
+    <input type="number" id="cvc_number" required>
+    <label for="exp_date">Expiry date</label>
+    <input type="month" id="exp_date" required>
+    <label for="billing_adr">Billing address</label>
+    <input type="text" id="billing_adr" required>
+    <input type="submit" value="Submit" />
+  </form>
+
+</body>
+
+</html>
