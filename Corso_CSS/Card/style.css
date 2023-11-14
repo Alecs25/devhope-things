@@ -1,0 +1,21 @@
+card div {
+    border: solid 1px;
+    width: 15%;
+    padding: 1vh;
+    
+}
+
+#img_box {
+    background-color: grey;
+    
+    
+}
+
+#img_card {
+    padding: 25%;
+   
+}
+
+nav a{
+    padding-left: 10%;
+}
