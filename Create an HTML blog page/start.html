@@ -1,0 +1,54 @@
+Create a HTML blog page.
+* The page should have an article, a footer and a form.
+* The article should have a title, a paragraph and background pictures.
+* The form should have a mandatory email field and a submit button.
+
+Use semantic tags as much as possible.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>HTML Lesson</title>
+</head>
+
+<body>
+  <article>
+    <h2>An article about hands and a laptop within two short senteces</H2>
+
+    <h3>Laptops</h3>
+    <img src="assets/laptop.png" alt="An image of a laptop on a desk">
+    <p>
+      This is an article about hands and a laptop. As you can see in the above image, that is a laptop.
+    </p>
+
+    <h3>Hands and laptops</h3>
+    <img src="assets/hands.png" alt="An image of someone's hands typing on a laptop">
+    <p>
+      Now we are showing you an image of someone's hands typing on a laptop.
+    </p>
+  </article>
+  <br><br>
+  
+  <form>
+    <h2>This one is a form</h2>
+    <fieldset>
+      <legend>Please fill out the email field to subscrive to our newsletter.</legend>
+      <label for="email_field">Your email:</label>
+      <input type="email" required id="email_field">
+      <button type="button">Submit</button>
+    </fieldset>
+  </form>
+  <br><br>
+
+  <footer>
+    <h2>Here is the footer; <br>please click on the button, it will bring you back at the top of the page.</h2>
+    <button type="button"><a href="#">Click me!</a></button>
+  </footer>
+</body>
+
+</html>
