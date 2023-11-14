@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    padding-left: 1vh;
+    background-color: darkcyan;
+    
+}
+
+#div{
+    display: inline-block;
+    
+}
+div > ul{
+    
+    list-style-type: none;
+    padding-top: 2vh;
+}
+
+.ul_nav li{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+
+.ul_search li{
+    display: inline-block;
+}
+
+#search{
+    margin-left: 5em;
+}
+
