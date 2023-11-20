@@ -1,0 +1,39 @@
+#sidebar{
+    float: left;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+}
+
+
+#ulSidebar{
+    list-style-type: none;
+    display: flex;    
+    align-items: left;
+    flex-direction: column;
+    padding: 0;
+    flex: 1;
+    
+}
+
+.hrefSidebar{
+    color: #2b2b2b;
+    transition: 0.3s;
+}
+
+.hrefSidebar:hover{
+    color: #2b2bb2;
+
+}
+
+
+#userBox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    gap: 1ch;
+}
