@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    gap: 5ch;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+p {
+    font-size: large;
+    font-weight: 600;
+    align-self: center;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+    padding-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#green {
+    background-color: rgba(0, 255, 0, 0.3);
+    order: 3;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#yellow {
+    background-color: rgba(221, 255, 0, 0.3);
+    order: 0;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+#orange {
+    background-color: rgba(255, 149, 0, 0.3);
+    order: 4;
+    flex-grow: 5;
+    flex-direction: column;
+
+}
+
+#orange>p {
+    align-self: flex-start;
+    padding-left: 10%;
+}
+
+#blue {
+    background-color: rgba(0, 0, 255, 0.3);
+    order: 5;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#blue>p {
+    align-self: center;
+    justify-self: center;
+
+}
+
+#red {
+    background-color: rgba(255, 0, 0, 0.3);
+    order: 1;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#red>p {
+    padding-right: 30%;
+}
+
+ul {
+    list-style: none;
+    gap: 3ch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    padding: 5ch 4ch 5ch 4ch;
+}
