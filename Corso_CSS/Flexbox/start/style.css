@@ -1,8 +1,15 @@
+body{
+     margin: 0;  
+        padding: 0; 
+        box-sizing: border-box; 
+}
+
 #sidebar{
     float: left;
     border: 1px solid black;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 200px;
     height: 100vh;
@@ -12,16 +19,20 @@
 #ulSidebar{
     list-style-type: none;
     display: flex;    
-    align-items: left;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding: 0;
     flex: 1;
+    text-decoration: none;
     
 }
 
 .hrefSidebar{
+    text-decoration: none;
     color: #2b2b2b;
     transition: 0.3s;
+    
 }
 
 .hrefSidebar:hover{
