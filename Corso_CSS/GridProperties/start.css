@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 4ch;
+    grid-template-areas:
+        "greenarea greenarea greenarea"
+        "yellowarea redarea bluearea"
+        "yellowarea redarea bluearea"
+        "orangearea orangearea bluearea";
+
+}
+section {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 50px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 4ch;
+    padding-left: 55px;
+    width: 200px;
+}
+
+li {
+    background-color: white;
+    list-style-type: none;
+    width: 100px;
+    height: 50px;    
+}
+
+#green {
+    grid-area: greenarea;
+    background-color: rgba(0, 128, 0, 0.272);
+    
+}
+
+#yellow {
+    grid-area: yellowarea;
+    background-color: rgba(255, 255, 0, 0.272);
+}
+
+#red {
+    grid-area: redarea;
+    background-color: rgba(255, 0, 0, 0.272);
+   
+}
+
+
+#blue {
+    grid-area: bluearea;
+    background-color: rgba(0, 0, 255, 0.272);
+}
+
+#orange {
+    grid-area: orangearea;
+    background-color: rgba(255, 166, 0, 0.272);
+}
