@@ -1,0 +1,105 @@
+
+
+#calc>p {
+    margin: 0;
+    border: 1px solid grey;    
+    text-align: center;
+    justify-content: center;
+    padding: 2ch;
+}
+
+#equal {
+    grid-area: equal;
+    background-color: #e511117c;
+    grid-row-end: span;
+}
+
+#tot {
+    grid-area: tot;
+    background-color: #5548487c;
+    text-align: end;
+    
+}
+
+#plus {
+    grid-area: plus;
+    background-color: #e1dada91;
+}
+
+#minus {
+    grid-area: minus;
+    background-color: #e1dada91;
+}
+
+#times {
+    grid-area: times;
+    background-color: #e1dada91;
+}
+
+#division {
+    grid-area: division;
+    background-color: #e1dada91;
+}
+
+#number9 {
+    grid-area: number9;
+}
+
+#number8 {
+    grid-area: number8;
+}
+
+#number7 {
+    grid-area: number7;
+}
+
+#number6 {
+    grid-area: number6;
+}
+
+#number5 {
+    grid-area: number5;
+}
+
+#number4 {
+    grid-area: number4;
+}
+
+#number3 {
+    grid-area: number3;
+}
+
+#number2 {
+    grid-area: number2;
+}
+
+#number1 {
+    grid-area: number1;
+}
+
+#number0 {
+    grid-area: number0;
+}
+
+#comma {
+    grid-area: comma;
+}
+
+#reset {
+    grid-area: reset;
+}
+
+#calc {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 10px 10px 10px 10px;
+    grid-template-areas:
+        "tot tot tot tot"
+        "plus minus times division"
+        "number7 number8 number9 equal"
+        "number4 number5 number6 equal"
+        ". . . equal"
+        "number1 number2 number3 equal"
+        "number0 comma reset equal";
+}

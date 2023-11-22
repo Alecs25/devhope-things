@@ -1,0 +1,74 @@
+#calc {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "tot tot tot tot"
+        "oper oper oper oper"
+        "numbers numbers numbers equal"
+        "numbers numbers numbers equal"
+        "numbers numbers numbers equal"
+        "numbers numbers numbers equal";
+}
+
+#tot {
+    display: grid;
+    grid-area: tot;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+#tot>p {
+    justify-self: end;
+    align-self: end;
+    color: white;
+    padding-right: 1ch;
+    font-size: larger;
+}
+
+#equal {
+    display: grid;
+    grid-area: equal;
+    grid-template-rows: repeat(5, 1fr);
+    background-color: rgba(255, 0, 0, 0.575);
+    border-radius: 0px 0px 5px 0px;
+
+}
+
+#equal>p {
+    justify-self: center;
+    font-size: large;
+    font-weight: bolder;
+    align-items: center;
+}
+
+
+#numbers {
+    background-color: white;
+    display: grid;
+    grid-area: numbers;
+    border-radius: 0px 0px 0px 0px;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 0px 0px 0px 5px;
+}
+
+#numbers>p {
+    justify-self: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#oper {
+    background-color: rgba(0, 0, 0, 0.292);
+    display: grid;
+    grid-area: oper;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#oper>p {
+    justify-self: center;
+    font-size: large;
+    font-weight: bold;
+}
