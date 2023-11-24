@@ -8,38 +8,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <header>
+    <main id="main_desktop">
+        <header id="header_desktop">
 
-        <nav>
-            <h1>Navbar</h1>
-            <div id="nav">
-                <ul class="ul_nav">
-                    <li><a href="localhost">Home</a></li>
-                    <li><a href="https://www.google.com">Link</a></li>
-                    <li> <select name="Dropdown">
-                            <option>Dropdown</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </select></li>
-                    <li>Disabled</li>
+            <nav id="menu_desktop">
+                <h1>Navbar</h1>
+                <div id="nav">
+                    <ul class="ul_nav">
+                        <li><a href="localhost">Home</a></li>
+                        <li><a href="https://www.google.com">Link</a></li>
+                        <li> <select name="Dropdown">
+                                <option>Dropdown</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select></li>
+                        <li>Disabled</li>
 
-                </ul>
+                    </ul>
 
-            </div>
-            <div id="search">
-                <ul class="ul_search">
-                    <li><input type="text" placeholder="Search"></li>
-                    <li><button type="submit">Search</button></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+                </div>
+                <div id="search">
+                    <ul class="ul_search">
+                        <li><input type="text" placeholder="Search"></li>
+                        <li><button type="submit">Search</button></li>
+                    </ul>
+                </div>
+            </nav>
 
+
+        </header>
+
+
+
+
+    </main>
+
+    <main id="main_mobile">
+        <header id="mobile_header">
+            <nav id="mobile_menu">
+                <img src="menu-icon.svg" alt="An hamburger icon for menu">
+            </nav>
+        </header>
+    </main>
 </body>
 
 </html>
