@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper_board {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+
+}
+
+.post {
+    display: flex;
+    height: 70%;
+    width: 30%;
+    background-color: grey;
+    flex-direction: column;
+    border-radius: 5%;
+
+}
+
+.post_header {
+    flex-direction: row;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    min-width: 0;
+    min-height: 0;
+
+}
+
+.post_author_image {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+
+}
+
+.post_author_image>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post_author_info {
+    flex: 4;
+    min-width: 0;
+    min-height: 0;
+}
+
+.post_interaction_kebab {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.post_interaction_kebab > img {
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.post_image {
+    flex: 8;
+    min-width: 0;
+    min-height: 0;
+}
+
+.post_image>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.post_interaction {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.post_description {
+    flex: 4;
+    display: inline-flex;
+}
+
+#description_text {
+    display: inline-flex;
+    padding: 2%;
+    justify-content: start;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper_board {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        flex-wrap: wrap;
+        gap: 5%;
+
+    }
+
+    .post {
+        display: flex;
+        height: 70%;
+        width: 45%;
+        background-color: grey;
+        flex-direction: column;
+        border-radius: 5%;
+    }
+
+    .post_header {
+        flex-direction: row;
+        display: flex;
+        flex: 2;
+        align-items: center;
+        min-width: 0;
+        min-height: 0;
+
+    }
+
+    .post_author_image {
+        flex: 1;
+        min-width: 0;
+        min-height: 0;
+
+    }
+
+    .post_author_image>img {
+        width: 70%;
+        height: 70%;
+        padding: 15%;
+    }
+
+    .post_author_info {
+        flex: 4;
+        min-width: 0;
+        min-height: 0;
+    }
+
+    .post_interaction_kebab {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .post_interaction_kebab > img {
+        
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .post_image {
+        flex: 8;
+        min-width: 0;
+        min-height: 0;
+    }
+
+    .post_image>img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .post_interaction {
+        flex: 1;
+        display: inline-flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .post_description {
+        flex: 4;
+        display: inline-flex;
+    }
+
+    #description_text {
+        display: inline-flex;
+        padding: 2%;
+        justify-content: start;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper_board {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5%;
+
+    }
+
+    .post {
+        display: flex;
+        height: 70%;
+        width: 90%;
+        background-color: grey;
+        flex-direction: column;
+        border-radius: 5%;
+
+    }
+
+    .post_header {
+        flex-direction: row;
+        display: flex;
+        flex: 2;
+        align-items: center;
+        min-width: 0;
+        min-height: 0;
+
+    }
+
+    .post_author_image {
+        flex: 1;
+        min-width: 0;
+        min-height: 0;
+
+    }
+
+    .post_author_image>img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .post_author_info {
+        flex: 4;
+        min-width: 0;
+        min-height: 0;
+    }
+
+    .post_interaction_kebab {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .post_interaction_kebab > img {
+        
+        width: 100%;
+        height: 100%;
+    }
+
+    .post_image {
+        flex: 8;
+        min-width: 0;
+        min-height: 0;
+    }
+
+    .post_image>img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .post_interaction {
+        flex: 1;
+        display: inline-flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .post_description {
+        flex: 4;
+        display: inline-flex;
+    }
+
+    #description_text {
+        display: inline-flex;
+        padding: 2%;
+        justify-content: start;
+    }
+
+}
